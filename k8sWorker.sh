@@ -13,7 +13,7 @@ sudo apt-get install -y kubelet kubeadm kubectl && \
 sudo apt-mark hold kubelet kubeadm kubectl
 
 
-echo "All kubernetes components are installed, now execute on Master node following command 'kubeadm token create --print-join-command'
+echo "All kubernetes components are installed, now execute on Master node following command 'kubeadm token create --print-join-command'"
 echo
 echo "After that, command for joining to k8s cluster will be displayed"
 echo
